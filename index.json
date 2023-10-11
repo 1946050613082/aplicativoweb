@@ -1,0 +1,38 @@
+{
+    "pacientes": [
+        {
+            "nombre": "Nombre1",
+            "apellido": "Apellido1",
+            "cedula": "Cedula1",
+            "edad": 30,
+            "telefono": "123-456-7890",
+            "especialidad": "Medicina general"
+        },
+        {
+            "nombre": "Nombre2",
+            "apellido": "Apellido2",
+            "cedula": "Cedula2",
+            "edad": 35,
+            "telefono": "987-654-3210",
+            "especialidad": "Cardiología"
+        }
+    ],
+    "doctores": [
+        {
+            "nombre": "Doctor1",
+            "apellido": "ApellidoDoctor1",
+            "cedula": "CedulaDoctor1",
+            "consultorio": "Consultorio1",
+            "correo": "doctor1@example.com",
+            "especialidad": "Medicina general"
+        },
+        {
+            "nombre": "Doctor2",
+            "apellido": "ApellidoDoctor2",
+            "cedula": "CedulaDoctor2",
+            "consultorio": "Consultorio2",
+            "correo": "doctor2@example.com",
+            "especialidad": "Cardiología"
+        }
+    ]
+}

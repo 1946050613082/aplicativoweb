@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Fondo ligeramente más oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para los formularios */
+form {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+}
+
+fieldset {
+    border: 2px solid #ccc; /* Borde más prominente */
+    padding: 15px; /* Más espacio interno */
+    border-radius: 10px; /* Bordes más redondeados */
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #007bff; /* Texto en azul */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Mayor espacio entre etiquetas */
+    font-weight: bold;
+    color: #333; /* Texto más oscuro */
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px; /* Mayor relleno */
+    margin-bottom: 15px; /* Mayor espacio entre campos */
+    border: 2px solid #ccc; /* Borde más prominente */
+    border-radius: 8px; /* Bordes más redondeados */
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px; /* Mayor relleno */
+    border: none;
+    border-radius: 8px; /* Bordes más redondeados */
+    cursor: pointer;
+    font-size: 18px; /* Texto ligeramente más grande */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la lista de pacientes y doctores */
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#listaPacientes,
+#listaDoctores {
+    flex: 1;
+    padding: 15px; /* Mayor espacio interno */
+}
+
+#listaPacientes h3,
+#listaDoctores h3 {
+    margin-top: 0;
+    color: #007bff; /* Texto en azul */
+}
+
+#listaPacientes div,
+#listaDoctores div {
+    border: 2px solid #ccc; /* Borde más prominente */
+    padding: 15px; /* Mayor espacio interno */
+    margin: 10px 0; /* Mayor espacio entre elementos */
+    background-color: #f9f9f9;
+    border-radius: 8px; /* Bordes más redondeados */
+}
+
+/* Estilos para los encabezados de listas */
+h3 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 24px; /* Texto más grande */
+}

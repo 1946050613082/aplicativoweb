@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tu Título</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script type="application/json" src="index.json" id="data-json"></script>
+</head>
+<body>
+    <!-- Formulario de Registro de Pacientes -->
+    <section>
+        <h2>Registro de Pacientes</h2>
+        <form id="formularioPaciente">
+            <fieldset>
+                <legend>Información del Paciente</legend>
+                <label for="nombrePaciente">Nombre:</label>
+                <input type="text" id="nombrePaciente" name="nombrePaciente" required>
+                <br>
+                <label for="apellidoPaciente">Apellido:</label>
+                <input type="text" id="apellidoPaciente" name="apellidoPaciente" required>
+                <br>
+                <label for="cedulaPaciente">Número de Cédula:</label>
+                <input type="text" id="cedulaPaciente" name="cedulaPaciente" required>
+                <br>
+                <label for="edadPaciente">Edad:</label>
+                <input type="number" id="edadPaciente" name="edadPaciente" required>
+                <br>
+                <label for="telefonoPaciente">Teléfono:</label>
+                <input type="tel" id="telefonoPaciente" name="telefonoPaciente" required>
+                <br>
+                <label for="especialidadPaciente">Especialidad requerida:</label>
+                <select id="especialidadPaciente" name="especialidadPaciente" required>
+                    <option value="" disabled selected>Selecciona una especialidad</option>
+                    <option value="Medicina general">Medicina general</option>
+                    <option value="Cardiología">Cardiología</option>
+                    <option value="Medicina interna">Medicina interna</option>
+                    <option value="Dermatología">Dermatología</option>
+                    <option value="Rehabilitación física">Rehabilitación física</option>
+                    <option value="Psicología">Psicología</option>
+                    <option value="Odontología">Odontología</option>
+                    <option value="Radiología">Radiología</option>
+                </select>
+            </fieldset>
+            <button type="submit">Agregar Paciente</button>
+        </form>
+    </section>
+
+    <!-- Formulario de Registro de Doctores -->
+    <section>
+        <h2>Registro de Doctores</h2>
+        <form id="formularioDoctor">
+            <fieldset>
+                <legend>Información del Doctor</legend>
+                <label for="nombreDoctor">Nombre:</label>
+                <input type="text" id="nombreDoctor" name="nombreDoctor" required>
+                <br>
+                <label for="apellidoDoctor">Apellido:</label>
+                <input type="text" id="apellidoDoctor" name="apellidoDoctor" required>
+                <br>
+                <label for="cedulaDoctor">Número de Cédula:</label>
+                <input type="text" id="cedulaDoctor" name="cedulaDoctor" required>
+                <br>
+                <label for="consultorioDoctor">Consultorio:</label>
+                <input type="text" id="consultorioDoctor" name="consultorioDoctor" required>
+                <br>
+                <label for="correoDoctor">Correo de contacto:</label>
+                <input type="email" id="correoDoctor" name="correoDoctor" required>
+                <br>
+                <label for="especialidadDoctor">Especialidad requerida:</label>
+                <select id="especialidadDoctor" name="especialidadDoctor" required>
+                    <option value="" disabled selected>Selecciona una especialidad</option>
+                    <option value="Medicina general">Medicina general</option>
+                    <option value="Cardiología">Cardiología</option>
+                    <option value="Medicina interna">Medicina interna</option>
+                    <option value="Dermatología">Dermatología</option>
+                    <option value="Rehabilitación física">Rehabilitación física</option>
+                    <option value="Psicología">Psicología</option>
+                    <option value="Odontología">Odontología</option>
+                    <option value="Radiología">Radiología</option>
+                </select>
+            </fieldset>
+            <button type="submit">Agregar Doctor</button>
+        </form>
+    </section>
+</body>
+</html>
